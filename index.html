@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFwoJ4eg7QpgOAioGc8uSbCFFprFdRcWkgA&s">
+    <title>Calculator</title>
+</head>
+    <body>
+
+
+        <div class="calculator">
+        <div class="screen" id="screen">0</div>
+        <div class="keys" role="group" aria-label="">
+        <!--row 1 -->
+            <button class="btn btn-ac" id="ac" data-action ="all-clear">AC</button>
+            <button class="btn btn-del" id="del" data-action ="delete">Del</button>
+            <button class="btn btn-op" id="value" data-value="%">%</button>
+            <button class="btn btn-op" id="slash" data-value="/">/</button>
+
+
+            <!--row 2-->
+            <button class="btn" id="seven"data-value="7">7</button>
+            <button class="btn"id="eight"data-value="8">8</button>
+            <button class="btn"id="nine" data-value="9">9</button>
+            <button class="btn btn-op"id="yulduz" data-value = "*">*</button>
+
+            <!--row 3-->
+            <button class="btn"id="four" data-value="4">4</button>
+            <button class="btn"id="five" data-value="5">5</button>
+            <button class="btn"id="six" data-value="6">6</button>
+            <button class="btn btn-op"id="minus" data-value="-">-</button>
+
+
+            <!-- row 4-->
+            <button class="btn"id="one" data-value="1">1</button>
+            <button class="btn"id="two" data-value="2">2</button>
+            <button class="btn"id="three" data-value="3">3</button>
+            <button class="btn btn-op" id="plus" data-value="+">+</button>
+
+            <!-- row 5 -->
+          <button class="btn btn-plusminus" id="pm" data-action="negate">±</button>
+          <button class="btn"id="zero" data-value="0">0</button>
+          <button class="btn"id="tochka" data-value=".">.</button>
+          <button class="btn btn-eq"id="teng" data-action="equals">=</button>
+        </div>    
+        </div>
+        
+
+        
+
+    </body>
+    <script src="index.js"></script>
+</html>
